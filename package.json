@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup-dev": "npm i express mongo nodemon"
+    "setup-dev": "npm i express mongo ejs ejs-mate mongoose method-override nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,11 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
     "express": "^4.18.2",
+    "method-override": "^3.0.0",
     "mongo": "^0.1.0",
+    "mongoose": "^7.1.0",
     "nodemon": "^2.0.22"
   }
 }
